@@ -80,6 +80,17 @@ class PrimerPantalla extends StatelessWidget {
           Center(
             child: ElevatedButton(
               onPressed: () {
+                Navigator.pushNamed(context, '/pantalla7');
+              },
+              child: const Text('Septimo Pantalla'),
+            ),
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
                 Navigator.pushNamed(context, '/pantalla8');
               },
               child: const Text('Octava Pantalla'),
